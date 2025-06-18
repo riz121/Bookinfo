@@ -1,0 +1,35 @@
+# Dependency directories
+node_modules/
+
+# Built files
+dist/
+*.js
+*.js.map
+
+# Environment variables (store these in a .env file)
+.env
+
+# Log files
+logs/
+*.log
+
+# IDE and text editor specific files
+.vscode/
+.idea/
+
+# macOS and Windows specific files
+.DS_Store
+Thumbs.db
+
+# Compiled TypeScript files
+*.tsbuildinfo
+
+# MongoDB data directory (change to your MongoDB data path if needed)
+data/
+
+# Docker related files
+docker-compose.yml
+Dockerfile
+
+# Node.js process ID file
+.pid
