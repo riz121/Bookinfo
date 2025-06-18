@@ -1,7 +1,6 @@
 # Bookstore
 
-An API for a bookstore using Express and MongoDB with Mongoose. This project is used to test the compatibility of express with [Bun](https://bun.sh/).
-You will find the Node.js version in the [main](https://github.com/AnsgarLichter/bookstore) branch and the version for Bun in the branch [feature-migrate-to-bun](https://github.com/AnsgarLichter/bookstore/tree/feature-migrate-to-bun).
+An API for a bookstore using Express and MongoDB with Mongoose. This project is used to test For RGT Robot Global Team
 
 ## Features
 
@@ -65,6 +64,7 @@ npm run prod
 {
     "title": "<title",
     "isbn": "<isbn></isbn>",
+    "qty": "<qty></qty>",
     "author": {
         "name": "<full name>"
     }
@@ -120,6 +120,7 @@ npm run prod
 {
     {
     "title": "<Updated Title>",
+     "qty": "<qty></qty>",
     "author": {
         "name": "<Updated Author>"
     }
