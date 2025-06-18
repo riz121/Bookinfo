@@ -6,7 +6,8 @@
   "scripts": {
     "build": "tsc",
     "dev": "nodemon src/index.ts",
-    "prod": "node dist/index.js"
+    "prod": "node dist/index.js",
+   "start": "npm run build && node dist/index.js"
   },
   "keywords": [
     "express",
